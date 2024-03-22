@@ -38,5 +38,25 @@
       "valueDate": "2024-03-26", 
       "nation": "AU"
     }
+  ],
+  "sepa": [
+    { 
+      "transactionId": "000001", 
+      "amount": 200,
+      "valueDate": "2024.03.14",
+      "nation": "DE"
+    },
+    { 
+      "transactionId": "000003", 
+      "amount": 300,
+      "valueDate": "2024.03.09",
+      "nation": "FR"
+    },
+    { 
+      "transactionId": "000005", 
+      "amount": 400,
+      "valueDate": "2024.03.22",
+      "nation": "LV"
+    }
   ]
 }
