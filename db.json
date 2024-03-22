@@ -39,7 +39,7 @@
       "nation": "AU"
     }
   ],
-  "separea": [
+  "sepa": [
     { 
       "transactionId": "000001", 
       "amount": 200,
