@@ -1,14 +1,62 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "sepa": [
+    { 
+      "transactionId": "000001", 
+      "amount": 200,
+      "valueDate": "2024.03.14",
+      "nation": "DE"
+    },
+    { 
+      "transactionId": "000003", 
+      "amount": 300,
+      "valueDate": "2024.03.09",
+      "nation": "FR"
+    },
+    { 
+      "transactionId": "000005", 
+      "amount": 400,
+      "valueDate": "2024.03.22",
+      "nation": "LV"
+    },
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "domestic": [
+    { 
+      "trn": "123", 
+      "amount": 1200, 
+      "effectiveDate": "13/03/2024"
+    },
+    { 
+      "trn": "124", 
+      "amount": 1300, 
+      "effectiveDate": "11/03/2024"
+    },
+    { 
+      "trn": "125", 
+      "amount": 14200, 
+      "effectiveDate": "15/03/2024"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "international": [
+    { 
+      "internationalId": "I850", 
+      "amount": 2000, 
+      "currency": "PLN", 
+      "valueDate": "2024-03-28", 
+      "nation": "PL", 
+    },
+    { 
+      "internationalId": "I950", 
+      "amount": 100, 
+      "currency": "USD", 
+      "valueDate": "2024-03-27", 
+      "nation": "US", 
+    },
+    { 
+      "internationalId": "I750", 
+      "amount": 50, 
+      "currency": "AUS", 
+      "valueDate": "2024-03-26", 
+      "nation": "AU", 
+    }
+  ],
 }
