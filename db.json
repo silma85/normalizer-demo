@@ -17,7 +17,7 @@
       "amount": 400,
       "valueDate": "2024.03.22",
       "nation": "LV"
-    },
+    }
   ],
   "domestic": [
     { 
@@ -42,21 +42,21 @@
       "amount": 2000, 
       "currency": "PLN", 
       "valueDate": "2024-03-28", 
-      "nation": "PL", 
+      "nation": "PL"
     },
     { 
       "internationalId": "I950", 
       "amount": 100, 
       "currency": "USD", 
       "valueDate": "2024-03-27", 
-      "nation": "US", 
+      "nation": "US"
     },
     { 
       "internationalId": "I750", 
       "amount": 50, 
       "currency": "AUS", 
       "valueDate": "2024-03-26", 
-      "nation": "AU", 
+      "nation": "AU"
     }
-  ],
+  ]
 }
