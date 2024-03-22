@@ -57,6 +57,12 @@
       "amount": 400,
       "valueDate": "2024.03.22",
       "nation": "LV"
+    },
+    { 
+      "transactionId": "000013", 
+      "amount": 500,
+      "valueDate": "2024.03.17",
+      "nation": "NL"
     }
   ]
 }
